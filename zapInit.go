@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func Init(path, level string, isWrapperZap bool) {
+func Do(path, level string, isWrapperZap bool) {
 	var logger *zap.Logger
 	l, _ := zapcore.ParseLevel(level)
 	fw, _ := os.OpenFile(path, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
