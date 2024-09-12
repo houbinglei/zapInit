@@ -1,4 +1,4 @@
-module zapInit
+module github.com/houbinglei/zapInit
 
 go 1.22
 
