@@ -1,4 +1,4 @@
-package Init
+package zapInit
 
 import (
 	"go.uber.org/zap"
